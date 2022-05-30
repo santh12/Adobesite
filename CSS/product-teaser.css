@@ -1,0 +1,40 @@
+.product-teaser-small{
+    padding: 50px;
+}
+.product-teaser-small-bg,.credentials-sub{
+    background-color: #f7f7f7;
+}
+.credentials-sub{
+    text-align: left;
+}
+.PT-padding{
+    padding: 30px;
+}
+.PT-padding-button{
+    width: 251px;
+    height: 35px;
+}
+.recomanded-head {
+padding: 0px 10px 0px 33px;
+}
+
+.shop-products {
+    text-align: right;
+    padding-right: 64px;
+}
+.credentials {
+    background-color: white;
+    height: 250px !important;
+    width: 251px;
+} 
+.PT-credentials-sub-img{
+    position: absolute;
+    top: 1055px;
+    /* height: 250px; */
+    right: 466px;
+}
+.credentials-sub>h1{
+    font-weight: bold;
+    font-size: 14px;
+    color: #2E2E22;
+}

@@ -1,0 +1,313 @@
+
+.heroBannerbg{
+    background-color: #e0e3e8;
+    height:400px;
+}   
+.heroBanner{
+    padding-left: 51px;
+    width: 263px;
+}
+.herobannerContent{
+    color: #354E57;
+    line-height: 1.3;
+}
+.btnheroBanner{
+    background-color: white;
+    border: none;
+    width: 50px;
+    height: 28px;
+    top: 267px;
+    left: 143px;
+    margin-left: 177px;
+    margin-top: 57px;
+}
+.shopBtn{
+    top: 535px;
+    left: 139px;
+    font-weight: bold;
+    width: 173px;
+    height: 35px;
+    color: #2E2E22;
+    background-color: transparent;
+    border: 1px solid #354E57;
+    opacity: 1;
+}
+/* .heroBannerImg{
+    background: url('../IMAGES/updated_Header@2x.png') no-repeat;
+} */
+
+.bgimg{
+    /* position: absolute;
+    width: 58%;
+    float: left;
+    padding-left: 436px; */
+    /* transform: rotate(-8deg); */
+    position: absolute;
+    top: 200px;
+    right: 310px;
+}
+
+.heroBannerDiv{
+    /* background-image: url('../IMAGES/updated_Header1@2x.png'); */
+    background-color: #e0e3e8;
+    height: 525px;
+    width: 100%;
+}
+.imageprop{
+    height: 526px;
+    width: 90%;
+    padding-left: 404px;
+}
+ 
+ .TL{
+    position: absolute;
+    top: 258px;
+    left: 174px;
+    width: 326px;
+ }
+ .TR {
+    position: absolute;
+    top: 200px;
+    right: 233px;
+ }
+ .TRLeft{
+    position: absolute;
+    top: 156px;
+    right: 336px;
+ }
+ .TRCenter{
+    position: absolute;
+    top: 200px;
+    right: 201px;
+ }
+ .ezcemaimg{
+    width: 496px;
+ }
+ .heroBannerHeadline{
+    font-size: 48px;
+    letter-spacing: 0px;
+    color: #354E57;
+    opacity: 1;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+ }
+ .heroBannertext{
+    font-family: 'Proxima Nova';
+     font-size: 16px;
+    width: 345px;
+    height: 68px;
+    margin-top: -22px;
+    letter-spacing: 0px;
+    color: #354E57;
+    opacity: 1;
+ }
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+    
+.btnheroBanner{
+    display: none;
+}
+    .herobannerContent{
+        color: #354E57;
+        /* margin-top: 81%; */
+        line-height: 1.3;
+    }
+    .heroBannertext {
+        font-size: 16px;
+        width: 345px;
+        height: 68px;
+        letter-spacing: 0px;
+        color: #354E57;
+        opacity: 1;
+        top: -13px;
+        position: relative;
+    }
+  .TL{
+    position: absolute;
+    top: 585px;
+    left: 64px;
+    /* text-align: center; */
+    width: 322px;
+  }
+  .ezcemaimg {
+    width: 396px;
+    /* top: 74px !important; */
+    /* position: absolute; */
+    margin-right: -32px;
+    margin-top: -78px;
+}
+.TRCenter {
+    position: absolute;
+    top: 222px;
+    right: 210px;
+}
+.TRLeft {
+    position: absolute;
+    top: 196px;
+    right: 324px;
+}
+.leavesimgLeft{
+    width: 352px;
+   
+}
+.TR {
+    position: absolute;
+    top: 112px;
+    right: 170px;
+}
+.heroBanner{
+    top: -172px;
+    right: 152px;
+    width: 100%;
+    position: relative;
+}
+.imageprop {
+    top: -130px;
+    right: 113px;
+    position: relative;
+    width: 100%;
+}
+.heroBannerDiv {
+    /* background-image: url(../IMAGES/updated_Header1@2x.png); */
+    background-color: #e0e3e8;
+    height: 342px;
+    width: 100%;
+    text-align: left;
+}
+.bgimg {
+    width: 100%;
+}
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .secBannerHeading {
+        font-family: 'Proxima Nova';
+        font-weight: bold;
+        font-size: 28px;
+        letter-spacing: 0px;
+        color: #354E57;
+        opacity: 1;
+        top: 845px;
+        height: 34px;
+        margin-left: 86px;
+        width: 203px;
+        margin-bottom: 41px;
+    }
+    .secBannerborder {
+        border: 1px solid #547665 !important;
+        font-family: 'Proxima Nova','Regular';
+        height: 185px !important;
+        text-align: center;
+    }
+    .secBannertext {
+        top: 885px;
+        left: 487px;
+        height: 19px;
+        text-align: center;
+        font: normal normal normal 16px/20px Proxima Nova;
+        letter-spacing: 0px;
+        color: #354E57;
+        margin-left: 86px;
+        width: 221px;
+        opacity: 1;
+    }
+    .TL {
+        position: absolute;
+        top: 477px;
+        left: 30px;
+        /* text-align: center; */
+        width: 74.33%;
+    }
+    .shopBtn {
+        top: 535px;
+        /* left: 136px; */
+        font-weight: bold;
+        width: 173px;
+        height: 35px;
+        background-color: transparent;
+        border: 1px solid #354E57;
+        opacity: 1;
+        margin-left: 58px;
+    }
+    
+    .imageprop {
+        top: 111px;
+    right: 114px;
+    position: relative;
+    width: 100%;
+    height: 199px;
+    }
+    .TR {
+        position: absolute;
+        top: 110px;
+        right: 50px;
+        /* transform: rotate(-14deg); */
+    }
+    .TRLeft {
+        position: absolute;
+        top: 153px;
+        right: 157px;
+    }
+    .TRCenter {
+        position: absolute;
+        top: 277px;
+    right: 135px;
+    }
+    .leavesimgLeft {
+        width: 327px;
+    }
+    .ezcemaimg {
+        width: 253px;
+        
+    }
+    
+    .bgimg {
+        position: absolute;
+        top: 134px;
+        right: 316px;
+    }
+    .heroBannerDiv {
+        background-color: #e0e3e8;
+        height: 287px;
+        width: 100%;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 380px) {
+    .bgimg {
+        position: absolute;
+        top: 144px;
+        right: 296px;
+    }
+    .TR {
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        /* transform: rotate(-14deg); */
+    }
+    .TRCenter {
+        position: absolute;
+        top: 277px;
+        right: 86px;
+    }
+    .TRLeft {
+        position: absolute;
+        top: 162px;
+        right: 104px;
+    }
+    
+    .TL {
+        position: absolute;
+        top: 477px;
+        left: 30px;
+        /* text-align: center; */
+        width: 87.33%;
+    }
+
+}
+

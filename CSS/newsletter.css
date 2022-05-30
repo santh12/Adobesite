@@ -1,0 +1,121 @@
+.newslettercontainer{
+    height: 135px;
+}
+
+.newsletterheading{
+    font-size: 32px;
+    font-weight: bold;
+    color: #354E57;
+    font-family: 'Proxima Nova';
+    margin-top: 50px;
+    width: 178px;
+    padding-left: 168px;
+    letter-spacing: 0px;
+}
+.newslettertext{
+    margin-top: 66px;
+    width: 275px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #354E57;
+    font-family: 'Proxima Nova';
+}
+.newsletter-btn{
+    color: white;
+    background-color: #956A53;
+    width: 100px;
+    border: none;
+    float: right;
+    width: 124px;
+    height: 40px;
+}
+.newsletterbox{
+    border: 1px solid #956A53;
+    margin-top: 66px;
+    width: 399px;
+    height: 40px;
+}
+.textborder{
+    border: none;
+}
+.newsletter-hr{
+    width: 72px;
+    transform: rotate(90deg);
+}
+.newsletterhr-div{
+    padding-left: 182px;
+    margin-top: -52px;
+}
+@media screen and (max-width: 600px) {
+    .newsletterheading {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 50px;
+        width: 178px;
+        padding-left: 44px;
+        letter-spacing: 0px;
+    }
+    .newslettertext {
+        margin-top: 12px;
+        width: 275px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding-left: 44px;
+    }
+    .newsletterbox {
+        border: 1px solid #956A53;
+        margin-top: 48px;
+        width: 355px;
+        height: 40px;
+        margin-bottom: 41px;
+        margin-left: 42px;
+    }
+    .newsletter-btn {
+        color: white;
+        background-color: #956A53;
+        width: 100px;
+        border: none;
+        float: left;
+        width: 124px;
+        height: 40px;
+    }
+    
+    .newsletterhr-div {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .newsletter-hr {
+        width: 341px;
+        transform: rotate(0deg);
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+.newsletterhr-div {
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.newsletter-hr {
+    width: 300px;
+    transform: rotate(0deg);
+}
+.newsletterbox {
+    border: 1px solid #956A53;
+    margin-top: 48px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 41px;
+    margin-left: 42px;
+}
+.newsletter-btn {
+    color: white;
+    background-color: #956A53;
+    border: none;
+    float: left;
+    width: 89px;
+    height: 40px;
+}
+}
