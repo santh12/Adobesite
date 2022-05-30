@@ -129,7 +129,7 @@
   .TL{
     position: absolute;
     top: 585px;
-    left: 64px;
+    left: 256px;
     /* text-align: center; */
     width: 322px;
   }
@@ -166,10 +166,11 @@
     position: relative;
 }
 .imageprop {
-    top: -130px;
+    top: -78px;
     right: 113px;
     position: relative;
     width: 100%;
+    height: 499px;
 }
 .heroBannerDiv {
     /* background-image: url(../IMAGES/updated_Header1@2x.png); */
@@ -221,7 +222,7 @@
         top: 477px;
         left: 30px;
         /* text-align: center; */
-        width: 74.33%;
+        width: 76.33%;
     }
     .shopBtn {
         top: 535px;
