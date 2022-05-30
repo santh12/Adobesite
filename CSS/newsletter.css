@@ -46,7 +46,7 @@
     padding-left: 182px;
     margin-top: -52px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .newsletterheading {
         font-size: 32px;
         font-weight: bold;
