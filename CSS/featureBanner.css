@@ -58,7 +58,7 @@
     width: 30px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 786px) {
     .featurecontainer {
         background-color: #eef2f4;
         height: 742px;
@@ -70,6 +70,9 @@
         width: 113px;
         margin-left: 30px;
     }
-
+    .feature-banner-padding{
+        text-align: -webkit-center;
+        padding-right: 127px;
+    }
 }
 
