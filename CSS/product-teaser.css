@@ -6,12 +6,13 @@
 }
 .credentials-sub{
     text-align: left;
+    padding-left: 1px;
 }
 .PT-padding{
     padding: 30px;
 }
 .PT-padding-button{
-    width: 251px;
+    width: 100%;
     height: 35px;
 }
 .recomanded-head {
@@ -20,16 +21,16 @@ padding: 0px 10px 0px 33px;
 
 .shop-products {
     text-align: right;
-    padding-right: 64px;
+    padding-right: 68px;
 }
 .credentials {
     background-color: white;
     height: 250px !important;
-    width: 251px;
+    width: 100%;
 } 
 .PT-credentials-sub-img{
     position: absolute;
-    top: 1055px;
+    /* top: 1055px; */
     /* height: 250px; */
     right: 466px;
 }
@@ -37,4 +38,235 @@ padding: 0px 10px 0px 33px;
     font-weight: bold;
     font-size: 14px;
     color: #2E2E22;
+}
+.credentials-sub-text{
+    font-size: 12px;
+}
+.credentials-sub-price{
+    font-size: 12px;
+    font-weight: 'Medium';
+}
+.product-teaser-custom-bg{
+    background-color: #f7f7f7 !important;
+}
+.product-teaser-cart-svg{
+    width: 29px;
+    height: 12px;
+    padding-right: 10px;
+}
+
+.credentials-hover-Acne{
+    height: 250px !important;
+    width: 251px;
+    background-image: url('../IMAGES/Cream1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-Acne:hover{
+    background-image: url('../IMAGES/Acne_Cream-hover_1.PNG');
+    background-repeat: no-repeat;
+}
+
+.credentials-hover-vitiligio{
+    height: 250px !important;
+    width: 251px;
+    background-image: url('../IMAGES/vitiligio-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-vitiligio:hover{
+    background-image: url('../IMAGES/Vitiligio Solution-hover_1.PNG');
+    background-repeat: no-repeat;
+}
+.credentials-hover-ezcema{
+    height: 250px !important;
+    width: 251px;
+    background-image: url('../IMAGES/ezcema-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-ezcema:hover{
+    background-image: url('../IMAGES/Ezcema-hover_1.png');
+    background-repeat: no-repeat;
+}
+.credentials-hover-sunburn{
+    height: 250px !important;
+    width: 251px;
+    background-image: url('../IMAGES/suburn-hover_1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-sunburn:hover{
+    background-image: url('../IMAGES/sunburn-ointment-hover_1.png');
+    background-repeat: no-repeat;
+}
+.PT-padding-button:hover{
+    background-color: white;
+}
+.spl-color-price{
+    color: #A67744;
+}
+.spl-color-price>del{
+    color: #2E2E22;
+}
+
+@media screen and (max-width: 768px) {
+    .product-teaser-small {
+        padding: 0px;
+    }
+.credentials-sub {
+    text-align: left;
+    padding-left: 15px;
+}
+.recomanded-head{
+    display: none;
+}
+.shop-products {
+    text-align: right;
+    padding-right: 88px;
+}
+.PT-credentials-sub-img {
+    position: absolute;
+    /* top: 1055px; */
+    /* height: 250px; */
+    right: 445px;
+    padding-top: 66px;
+}
+.credentials-hover-Acne{
+    width: 100%;
+    margin-left: 47px;
+}
+.PT-padding {
+    padding: 0px;
+}
+.credentials-hover-vitiligio {
+    height: 250px !important;
+    width: 100%;
+    text-align: center;
+    background-image: url('../IMAGES/vitiligio-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-ezcema {
+    height: 250px !important;
+    width: 100%;
+    text-align: center;
+    margin-left: 31px;
+    background-image: url('../IMAGES/ezcema-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-sunburn {
+    height: 250px !important;
+    width: 100%;
+    margin-left: 44px;
+    text-align: center;
+    background-image: url(../IMAGES/suburn-hover_1.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.PT-padding-button {
+    width: 100%;
+    height: 35px;
+}
+.PT-padding-button:hover {
+    width: 100%;
+}
+.cart-button-hover:hover .overlay{
+   opacity: 1;
+}
+.overlay{
+    width: 110%;
+}
+.PT-padding-cust-mobile {
+    padding: 18px;
+}
+}
+
+
+@media screen and (max-width: 425px) {
+ .scroll-button-left{
+    color: #000!important;
+    background-color: #ccc!important;
+    height: 1px;
+    width: 48%;
+    float: left;
+}
+.scroll-button-right{
+    color: #000!important;
+    background-color: #ccc!important;
+    height: 1px;
+    width: 48%;
+}
+.dspl-flex{
+    display: flex;
+}
+    .product-teaser-small {
+        padding: 0px;
+    }
+.credentials-sub {
+    text-align: left;
+    padding-left: 15px;
+}
+.recomanded-head{
+    display: none;
+}
+.shop-products {
+    text-align: right;
+    padding-right: 88px;
+}
+.PT-credentials-sub-img {
+    position: absolute;
+    /* top: 1055px; */
+    /* height: 250px; */
+    right: 445px;
+    padding-top: 66px;
+}
+.credentials-hover-Acne{
+    width: 122%;
+    margin-left: -18px;
+}
+.PT-padding {
+    padding: 0px;
+}
+.credentials-hover-vitiligio {
+    height: 250px !important;
+    width: 145%;
+    margin-left: -75px;
+    background-image: url('../IMAGES/vitiligio-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-ezcema {
+    height: 250px !important;
+    width: 145%;
+    margin-left: -31px;
+    background-image: url('../IMAGES/ezcema-1.png');
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.credentials-hover-sunburn {
+    height: 250px !important;
+    width: 100%;
+    margin-left: -43px;
+    background-image: url(../IMAGES/suburn-hover_1.png);
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+.PT-padding-button {
+    width: 100%;
+    height: 35px;
+}
+.PT-padding-button:hover {
+    width: 100%;
+}
+.cart-button-hover:hover .overlay{
+   opacity: 1;
+}
+.overlay{
+    width: 110%;
+}
+.PT-padding-cust-mobile {
+    padding: 18px;
+}
 }
