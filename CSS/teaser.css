@@ -1,0 +1,72 @@
+.teaser-bg-img>img .teaser-heading{
+    height: 731px;
+}
+
+.teaser-content{
+    background-color: #547665;
+}
+.teaser-content-two{
+    background-color:#C6B9B6;
+}
+
+.teaser-heading{
+    font-family: 'Proxima Nova';
+    font-size: 40px;
+    height: 570px;
+    width: 60%;
+    padding-top: 175px;
+    padding-left: 117px;
+    color: #FFFFFF;
+}
+.teaser-text{
+    font-size: 16px;
+}
+.teaser-text-two{
+    font-size: 16px;
+    color: #2E2E22;
+}
+.teaser-img{
+    height: 745px;
+    width: 100%;
+}
+.teaser-button-div{
+    padding-top: 37px;
+}
+.teaser-button{
+    background-color: transparent;
+    height: 46px;
+    width: 176px;
+    color: white;
+    border: 1px solid #FFFFFF;
+}
+
+.teaser-button-two{
+    background-color: transparent;
+    height: 46px;
+    width: 176px;
+    color: #2E2E22;
+    border: 1px solid #956A53;
+}
+@media screen and (max-width: 768px) {
+    .teaser-heading {
+        font-family: 'Proxima Nova';
+        font-size: 40px;
+        height: 446px;
+        width: 60%;
+        padding-top: 77px;
+        padding-left: 117px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .teaser-heading {
+        font-family: 'Proxima Nova';
+        font-size: 40px;
+        height: 446px;
+        width: 95%;
+        padding-top: 77px;
+        padding-left: 13px;
+        color: #FFFFFF;
+    }
+}
