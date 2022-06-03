@@ -7,27 +7,26 @@ html,body{
   min-height: 32px;
 }
 /* OfferBanner starts */
+
+.ofrtitle{
+    font-size: 16px;
+    color: #F7F5E6;
+    width: auto;
+    flex-grow: 1;
+    overflow: hidden;
+    text-align:center;
+}
 .offerBanner{
-    background: #A67744;
+  background: #A67744;
 }
 .bannercontent{
-    background: #A67744;
-    max-width: 1080px;
-    display: flex;
-    margin: 0 auto;
-}
-.ofrtitle{
-    flex-grow: 1;overflow: hidden;
-    text-align:center;
-    color: #F7F5E6;
-    font-size: 16px;
-    width: auto;
+  max-width: 1080px;
+  background: #A67744;
+  display: flex;
+  margin: 0 auto;
 }
 /* OfferBanner Ends */
 .subheader{
-    /* margin-left: -248px;
-    float: left;
-    margin-top: 35px;  */
     font-size: 16px;
     font-family: 'Proxima Nova',m;
     color: #354E57 !important;
@@ -56,48 +55,39 @@ html,body{
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    /* font-size: 18px; */
     line-height: 25px;
     border-radius: 4px;
   }
-  
+  .search-svg{
+      float: left;
+      display: block;
+      color: #293D45;
+      text-align: center;
+      width: 12px;
+      padding: 18px;
+      text-decoration: none;
+      line-height: 25px;
+      border-radius: 4px;
+  }
   .header a.logo {
     font-size: 32px;
     letter-spacing: 1.6px;
-    /* font-weight: bold; */
   }
   .header .icon {
     display: none;
   }
-  
-  /* Float the link section to the right */
   .header-right {
     float: right;
   }
   .header-center {
-   /* text-align: center; */
    margin-left: 40%;
    font-size: 32px;
    display: flex;
-   /* justify-content: space-around; */
-   /* width: 32rem; */
   }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  /* @media screen and (max-width: 500px) {
-    .header a {
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
-    }
-  } */
   .smallheader>ul {
     list-style: none;
     color: #354E57;
   }
-  /* mobile header */
   .closebtn,.openbtn{
       visibility: hidden; 
       display: none;
@@ -107,12 +97,10 @@ html,body{
       display: none !important;
     }
   }
-
   @media only screen and (min-device-width: 920px) and (max-device-width: 1326px) {
     .custom-display-div{
       width:25% !important;
     }
-
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 920px) {
     .custPadding{
@@ -121,7 +109,17 @@ html,body{
     .fa-bars:hover>header{
         background-color: #F7F7F7 !important;
       }
-    
+      .search-svg {
+        float: left;
+        display: block;
+        color: #293D45;
+        text-align: center;
+        width: 18px;
+        padding: 3px;
+        text-decoration: none;
+        line-height: 25px;
+        border-radius: 4px;
+    }
     .subheader{
       font-size: 24px;
     letter-spacing: 1.2px;
@@ -133,7 +131,6 @@ html,body{
       font-size: 32px;
       padding-top: 27px;
       letter-spacing: 1.6px;
-      /* font-family: 'Somatic-Rounded'; */
     }
     .smallheader{
       left: 10px;
@@ -164,25 +161,20 @@ html,body{
     overflow-x: hidden;
   }
   .header-center {
-    /* text-align: center; */
     margin-left: 0 !important;
     font-size: 32px;
     display: flex;
     justify-content: space-around;
-    /* width: 32rem; */
-    
    }
   .hideclass{
     display: none !important;
   }
-  
   .sidebar a {
     text-decoration: none;
     font-size: 25px;
     color:#354E57;
     display: block;
   }
-  
   .custom-mobile-right{
     position: absolute;
     display: flex;
@@ -192,17 +184,13 @@ html,body{
     font-size: 12px !important;
     font-weight: bold;
   }
-  
   .sidebar .closebtn {
     visibility: visible;
     position: absolute;
     top: 39px;
-    /* right: 25px; */
     left: 47px;
     font-size: 36px;
-    /* margin-left: 50px; */
   }
-  
   .openbtn {
     float: none;
     overflow: hidden;
@@ -212,34 +200,31 @@ html,body{
     cursor: pointer;
     background-color: transparent;
     color: #354E57;
-    /* padding: 10px 15px; */
     border: none;
     border-radius: 5px;
   }
-  
   .openbtn:hover {
     background-color: #444;
   }
-  
   #main {
-    /* transition: margin-left .5s; */
-    padding: 16px 0px;
+   padding: 25px 0px;
   }
-
-
   @media screen and (max-height: 768px) {
     .openbtn{
       float: none;
       overflow: hidden;
-      display: block;
-      
+      display: block;   
     }
+    .header a.logo {
+      padding-left: 0px;
+      font-size: 32px;
+      padding-top: 27px;
+      letter-spacing: 1.6px;
+  }
     .header.responsive .aem-GridColumn--phone--hide:nth-of-type(0){
       float: none !important;
       display: block !important;
       text-align: left !important;
     }
-    
   }
-
   }
