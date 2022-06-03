@@ -277,16 +277,16 @@ padding: 0px 10px 0px 33px;
 }
 .credentials-hover-vitiligio {
     height: 250px !important;
-    width: 145%;
-    background-image: url('../IMAGES/vitiligio-1.png');
+    width: 100%;
+    background-image: url(../IMAGES/vitiligio01.png);
     background-repeat: no-repeat;
     transition: .3s;
 }
 .credentials-hover-ezcema {
     height: 250px !important;
-    width: 145%;
-    margin-left: -31px;
-    background-image: url('../IMAGES/ezcema-1.png');
+    width: 100%;
+    margin-left: 5px;
+    background-image: url(../IMAGES/ezcema11.png);
     background-repeat: no-repeat;
     transition: .3s;
 }
@@ -296,7 +296,7 @@ padding: 0px 10px 0px 33px;
     margin-left: 2px;
     background-image: url(../IMAGES/suburn-hover_1.png);
     background-repeat: no-repeat;
-    transition: .3s;
+    transition: 0.3s;
 }
 .PT-padding-button {
     width: 100%;
