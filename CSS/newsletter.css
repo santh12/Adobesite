@@ -1,7 +1,6 @@
 .newslettercontainer{
     height: 135px;
 }
-
 .newsletterheading{
     font-size: 32px;
     font-weight: bold;
@@ -78,8 +77,7 @@
         float: left;
         width: 124px;
         height: 40px;
-    }
-    
+    }   
     .newsletterhr-div {
         padding-left: 0;
         margin-top: 0;
@@ -88,11 +86,8 @@
         width: 341px;
         transform: rotate(0deg);
     }
-
 }
-
 @media screen and (max-width: 380px) {
-
 .newsletterhr-div {
     padding-left: 0;
     margin-top: 0;
