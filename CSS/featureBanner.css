@@ -2,11 +2,9 @@
     background-color: #eef2f4;
     height: 276px;
 }
-
 .featurecol{
     display: inline-flex;
-    width: 33%;
-    
+    width: 33%;   
 }
 .textprops{
     color: #354E57;
@@ -53,11 +51,9 @@
 .featuretags a{
     color: #354E57;
 }
-
 .storefront-svg{
     width: 30px;
 }
-
 @media screen and (max-width: 786px) {
     .featurecontainer {
         background-color: #eef2f4;
