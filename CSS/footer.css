@@ -1,0 +1,142 @@
+.footer{
+    background-color: #354E57;
+    color: #FFFFFF;
+}
+.footer-heading{
+    padding-top: 58px;
+}
+.footer-heading>h3{
+    font-size: 54px;
+}
+.footer-shop{
+    padding-top: 113px;   
+}
+.footer-shop>ul{
+        list-style-type: none;
+    }
+    .footer-shop>ul>li{
+        padding: 10px 0px 10px 0px;
+    }
+    .custom-li-home{
+        padding-bottom: 84px !important;
+    }
+   .custom-li-about {
+        padding-bottom: 48px !important;
+    }
+    .custom-li-more{
+        padding-bottom: 120px !important;
+    }
+.footer-shop>h3 {
+        padding-left: 38px;
+        font-size: 16px;
+    }
+.footer-text .all-rights>h4{
+    font-size: 16px;
+}
+.footer-subscribe{
+    padding-bottom: 95px;
+}
+.footer-subscribe>input{
+    width: 236px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid white;
+}
+.footer-subscribe>input::placeholder { 
+    color: white;
+    opacity: 1;
+  }
+.footer-button{
+    width: 104px;
+    height: 40px;
+    margin-left: -6px;
+    background-color: #354E57;
+    border: 1px solid white;
+    color: white;
+}
+.social-media-icons{
+    padding-top: 49px;
+    text-align: right;
+}
+.social-media-icons-svg{
+    width: 30px;
+    padding-right: 20px;
+}
+.footer-PTC>a{
+    padding-right: 88px;
+    color: #FFFFFF;
+}
+.sub-footer{
+    padding-bottom: 100px;
+    padding-top: 42px;
+}
+@media screen and (max-width: 768px) {
+#footer{
+    padding-top: 196px;
+}
+.custom-hide-hr{
+    display: none;
+}
+.social-media-icons {
+    padding-top: 49px;
+    text-align: left;
+}
+.footer-shop {
+    padding-top: 0px;
+    padding-bottom: 44px;
+}
+.footer-heading {
+    padding-top: 0px;
+    padding-left: 47px;
+}
+.footer-container{
+        margin-top: 540px;
+        position: absolute;
+        background-color: #354E57;
+        width: 100%;
+        color: #FFFFFF;
+}
+.sub-footer {
+    padding-bottom: 100px;
+    padding-top: 42px;
+    margin-top: 179px;
+    padding-left: 47px;
+    width: 94%;
+}
+.footer-subscribe {
+    padding-bottom: 41px;
+}
+.footer {
+    background-color: #354E57;
+    color: #FFFFFF;
+    padding-top: 73px;
+}
+.custom-hr-padding{
+    width: 80%;
+    padding-right: 57px;
+}
+}
+@media screen and (max-width: 425px) {
+    .sub-footer {
+        width: 89%;
+    }
+    .footer-subscribe>input {
+        width: 185px;
+        height: 36px;
+        background: transparent;
+        border: 1px solid white;
+    }
+    .footer-PTC>a {
+        padding-right: 33px;
+    }
+}
+@media screen and (max-width: 375px) {
+.footer-button {
+    width: 104px;
+    height: 37px;
+    margin-left: -6px;   
+}
+.footer-PTC>a {
+    padding-right: 15px;
+}
+}
