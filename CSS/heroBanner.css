@@ -1,4 +1,3 @@
-
 .heroBannerbg{
     background-color: #e0e3e8;
     height:400px;
@@ -32,23 +31,12 @@
     border: 1px solid #354E57;
     opacity: 1;
 }
-/* .heroBannerImg{
-    background: url('../IMAGES/updated_Header@2x.png') no-repeat;
-} */
-
 .bgimg{
-    /* position: absolute;
-    width: 58%;
-    float: left;
-    padding-left: 436px; */
-    /* transform: rotate(-8deg); */
     position: absolute;
     top: 200px;
     right: 310px;
 }
-
 .heroBannerDiv{
-    /* background-image: url('../IMAGES/updated_Header1@2x.png'); */
     background-color: #e0e3e8;
     height: 525px;
     width: 100%;
@@ -58,7 +46,6 @@
     width: 90%;
     padding-left: 404px;
 }
- 
  .TL{
     position: absolute;
     top: 258px;
@@ -101,13 +88,7 @@
     color: #354E57;
     opacity: 1;
  }
-
-
-
-
-
- @media screen and (max-width: 768px) {
-    
+ @media screen and (max-width: 768px) {  
 .btnheroBanner{
     display: none;
 }
@@ -173,7 +154,6 @@
     height: 499px;
 }
 .heroBannerDiv {
-    /* background-image: url(../IMAGES/updated_Header1@2x.png); */
     background-color: #e0e3e8;
     height: 342px;
     width: 100%;
@@ -182,9 +162,7 @@
 .bgimg {
     width: 100%;
 }
-
   }
-
   @media screen and (max-width: 600px) {
     .secBannerHeading {
         font-family: 'Proxima Nova';
@@ -221,12 +199,10 @@
         position: absolute;
         top: 477px;
         left: 30px;
-        /* text-align: center; */
         width: 76.33%;
     }
     .shopBtn {
         top: 535px;
-        /* left: 136px; */
         font-weight: bold;
         width: 173px;
         height: 35px;
@@ -235,19 +211,17 @@
         opacity: 1;
         margin-left: 58px;
     }
-    
     .imageprop {
         top: 111px;
-    right: 114px;
-    position: relative;
-    width: 100%;
-    height: 199px;
+        right: 114px;
+        position: relative;
+        width: 100%;
+        height: 199px;
     }
     .TR {
         position: absolute;
         top: 110px;
         right: 50px;
-        /* transform: rotate(-14deg); */
     }
     .TRLeft {
         position: absolute;
@@ -257,16 +231,14 @@
     .TRCenter {
         position: absolute;
         top: 277px;
-    right: 135px;
+        right: 135px;
     }
     .leavesimgLeft {
         width: 327px;
     }
     .ezcemaimg {
         width: 253px;
-        
     }
-    
     .bgimg {
         position: absolute;
         top: 134px;
@@ -289,7 +261,6 @@
         position: absolute;
         top: 110px;
         right: 0px;
-        /* transform: rotate(-14deg); */
     }
     .TRCenter {
         position: absolute;
@@ -301,14 +272,10 @@
         top: 162px;
         right: 104px;
     }
-    
     .TL {
         position: absolute;
         top: 477px;
         left: 30px;
-        /* text-align: center; */
         width: 87.33%;
     }
-
 }
-
